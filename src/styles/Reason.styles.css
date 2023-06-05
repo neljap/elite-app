@@ -1,0 +1,30 @@
+.reason-main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+.reason-top{
+    max-width: 500px;
+    text-align: center;
+}
+.reason-content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+
+.reason-content{
+    max-width: 200px;
+    box-shadow: 1px 1px 1px red;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
