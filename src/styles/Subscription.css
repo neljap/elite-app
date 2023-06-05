@@ -1,0 +1,17 @@
+.sub-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 20px 0px;
+}
+.sub-items{
+    max-width: 350px;
+}
+.sub-items-card{
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 2px 2px black;
+}

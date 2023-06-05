@@ -1,0 +1,37 @@
+.investorContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.investTitle{
+    max-width: 400px;
+    text-align: center;
+}
+.investor-containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.investContain{
+    max-width: 320px;
+    height: 500px;
+    border-radius: 20px;
+    position: relative;
+
+}
+.investContain > img {
+    border-radius: 20px;
+}
+.invest-detail{
+    background-color: white;
+    width: 80%;
+    border-radius: 15px;
+    padding: 10px 30px;
+    position: absolute;
+    bottom: 80px;
+    right: 5px;
+}

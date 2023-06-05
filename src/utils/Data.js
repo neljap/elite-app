@@ -50,3 +50,24 @@ export const ReasonData = [
     icon: <IoMdPhoneLandscape />
   },
 ];
+
+export const InvestorData = [
+  {
+    id: 1,
+    title: "Richard",
+    amount: "765000 USD",
+    img: require('../components/images/manb.png')
+  },
+  {
+    id: 2,
+    title: "Jake Bloomer",
+    amount: "980000 USD",
+    img: require('../components/images/mana.png')
+  },
+  {
+    id: 3,
+    title: "John Lucas Berger",
+    amount: "170000 USD",
+    img: require('../components/images/man.png')
+  }
+]
