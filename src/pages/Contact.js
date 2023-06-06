@@ -1,9 +1,12 @@
 import HomeNavbar from "../components/Navbar/HomeNavbar"
+import ContactHero from "../components/HeroSections/ContactHero"
+import ContactForm from "../components/Forms/ContactForm"
 
 const Contact = () => {
   return (
     <HomeNavbar>
-      <h2>This is the contact page</h2>
+      <ContactHero />
+      <ContactForm />
     </HomeNavbar>
   )
 }

@@ -1,4 +1,5 @@
 import AboutSection from "../components/AboutSection"
+import FaqSection from "../components/FaqSection"
 import FundManager from "../components/FundManager"
 import HeroHome from "../components/HeroHome"
 import HighRef from "../components/HighRef"
@@ -20,6 +21,7 @@ const Home = () => {
       <FundManager />
       <Subscription />
       <Investor /> 
+      <FaqSection />
       {/* <Testimonial /> */}
     </HomeNavbar>
   )

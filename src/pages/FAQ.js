@@ -1,9 +1,12 @@
+import FaqSection from "../components/FaqSection"
+import FaqHero from "../components/HeroSections/FaqHero"
 import HomeNavbar from "../components/Navbar/HomeNavbar"
 
 const FAQ = () => {
   return (
     <HomeNavbar>
-      <h2>This is the FAQ Section</h2>
+      <FaqHero />
+      <FaqSection />
     </HomeNavbar>
   )
 }

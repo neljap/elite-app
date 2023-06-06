@@ -19,6 +19,9 @@ const HomeNavbar = ({children}) => {
           <img src={Logo} alt="img" />
         </Link>
         <nav className="nav-links" ref={NavRef}>
+          <Link to="/" onClick={showNavbar}>
+            Home
+          </Link>
           <Link to="/about-us" onClick={showNavbar}>
             About
           </Link>
@@ -28,9 +31,11 @@ const HomeNavbar = ({children}) => {
           <Link to="/contact" onClick={showNavbar}>
             Contact
           </Link>
-          <button className="btn btn-primary" onClick={showNavbar}>
-            Dashboard
-          </button>
+          <Link to="/sign-in" onClick={showNavbar}>
+            <button className="btn btn-danger">
+              Sign In
+            </button>
+          </Link>
           <button className="icon_btn icon_close" onClick={showNavbar}>
             <FaTimes size={23} color="white" />
           </button>

@@ -1,10 +1,13 @@
-import React from 'react'
+import HomeNavbar from "../components/Navbar/HomeNavbar"
+import SignInSection from "../components/HeroSections/SignInSection"
+import SignInForm from "../components/Forms/SignInForm"
 
 const SignIn = () => {
   return (
-    <div>
-      
-    </div>
+    <HomeNavbar>
+      <SignInSection />
+      <SignInForm />
+    </HomeNavbar>
   )
 }
 
