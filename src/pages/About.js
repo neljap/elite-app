@@ -1,9 +1,14 @@
+import AboutSection from "../components/AboutSection"
 import HomeNavbar from "../components/Navbar/HomeNavbar"
+import Reason from "../components/Reason"
+import Subscription from "../components/Subscription"
 
 const About = () => {
   return (
     <HomeNavbar>
-      <h2>This is the About Page</h2>
+      <AboutSection />
+      <Reason />
+      <Subscription />
     </HomeNavbar>
   )
 }

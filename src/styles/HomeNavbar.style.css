@@ -17,39 +17,39 @@
     text-decoration: none;
     color: white;
 }
-.btn-mob{
-    display: none;
-}
-.icon-btn-desk{
+.icon_btn{
+    border: none;
+    background: transparent;
+    outline: none;
     display: none;
 }
 
 @media screen and (max-width: 767px){
-    .navbar-container{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    .icon_btn{
+        display: block;
     }
     .nav-links{
-        display: none;
-    }
-    .nav-mob-links{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         gap: 1em;
+        width: 100%;
+        height: 300px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgb(35, 42, 96);
+        color: white;
+        transform: translateY(-100vh);
+        transition: 1s;
     }
-    .btn-desk{
-        display: block;
+    .navbar-container .responsive_navbar{
+        transform: none;
     }
-    .btn-mob{
-        display: none;
-    }
-    .icon-btn-desk{
-        display: block;
-        background: transparent;
-        border: none;
-        outline: none;
+    .icon_close{
+        position: absolute;
+        top: 1.7em;
+        right: 1.7em;
     }
 }
