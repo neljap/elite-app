@@ -4,6 +4,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 50px 0px;
+    gap: 2em;
 }
 .howElite-container{
     display: flex;

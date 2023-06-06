@@ -4,6 +4,7 @@ import {SiConvertio} from "react-icons/si"
 import {BsFillEyeSlashFill} from "react-icons/bs" 
 import {FaPhoneVolume} from "react-icons/fa"
 import {IoMdPhoneLandscape} from "react-icons/io"
+import {FaTimes} from "react-icons/fa"
 
 
 export const ReasonData = [
@@ -69,5 +70,26 @@ export const InvestorData = [
     title: "John Lucas Berger",
     amount: "170000 USD",
     img: require('../components/images/man.png')
+  }
+]
+
+export const howData = [
+  {
+    id: 1,
+    no: 1,
+    title: "OPEN AN ACCOUNT",
+    text: "Sign up for an account with your name, email and phone number"
+  },
+  {
+    id: 2,
+    no: 2,
+    title: "DEPOSIT FUNDS",
+    text: "Fund your wallet via fast and secure payment options"
+  },
+  {
+    id: 3,
+    no: 3,
+    title: "GROW PROFITS",
+    text: "We trade with your assets and earn profit"
   }
 ]

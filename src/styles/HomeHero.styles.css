@@ -3,17 +3,31 @@
     justify-content: space-between;
     background-image: url("../components/images/herobgImg.png");
     background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    height: 100vh;
     object-fit: contain;
+    padding: 20px;
 }
 .herohome-details{
     max-width: 500px;
     padding: 150px 0px;
+    
+
 }
 
 @media screen and (max-width: 767px){
-    .herohome-details{
-       padding: 70px 0px; 
+    .herohome-container{
+        height: 70vh;
     }
-}
+    .herohome-details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    /* .herohome-details{
+       padding: 70px 0px; 
+    } */
+} 
