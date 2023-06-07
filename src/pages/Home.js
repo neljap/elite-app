@@ -1,9 +1,9 @@
 import AboutSection from "../components/AboutSection"
-import FaqSection from "../components/FaqSection"
+// import FaqSection from "../components/FaqSection"
 import FundManager from "../components/FundManager"
 import HeroHome from "../components/HeroHome"
 import HighRef from "../components/HighRef"
-import HowElite from "../components/HowElite"
+// import HowElite from "../components/HowElite"
 import Investor from "../components/Investor"
 import HomeNavbar from "../components/Navbar/HomeNavbar"
 import Reason from "../components/Reason"
@@ -14,14 +14,14 @@ const Home = () => {
   return (
     <HomeNavbar>
       <HeroHome />
-      <HowElite />
+      {/* <HowElite /> */}
       <AboutSection />
       <HighRef />
       <Reason />
       <FundManager />
       <Subscription />
       <Investor /> 
-      <FaqSection />
+      {/* <FaqSection /> */}
       {/* <Testimonial /> */}
     </HomeNavbar>
   )
