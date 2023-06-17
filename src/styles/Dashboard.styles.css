@@ -1,0 +1,19 @@
+.dashboard-main-container{
+    background-color: rgb(77, 155, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.dashboard-items{
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

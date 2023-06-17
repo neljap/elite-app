@@ -1,4 +1,5 @@
 import AboutSection from "../components/AboutSection"
+import DashboardBody from "../components/DashboardBody"
 // import FaqSection from "../components/FaqSection"
 import FundManager from "../components/FundManager"
 import HeroHome from "../components/HeroHome"

@@ -93,3 +93,36 @@ export const howData = [
     text: "We trade with your assets and earn profit"
   }
 ]
+
+export const DashData = [
+  {
+    id: 1,
+    title: "Current Balance",
+    btnTxt: "WITHDRAW NOW"
+  },
+  {
+    id: 2,
+    title: "Total Investment Amount",
+    btnTxt: "INVESTMENT HISTORY"
+  },
+  {
+    id: 3,
+    title: "Total Deposits Amount",
+    btnTxt: "DEPOSIT HISTORY"
+  },
+  {
+    id: 4,
+    title: "Total Withdraws Amount",
+    btnTxt: "WITHDRAW HISTORY"
+  },
+  {
+    id: 5,
+    title: "Total Transaction Amount",
+    btnTxt: "TRANSACTION LOG"
+  },
+  {
+    id: 6,
+    title: "Total Referrals User",
+    btnTxt: "REFERRALS USER"
+  }
+];
