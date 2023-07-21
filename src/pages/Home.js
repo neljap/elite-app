@@ -13,6 +13,7 @@ import Reason from "../components/Reason";
 import Subscription from "../components/Subscription";
 import { useRef } from "react";
 import "../styles/HomeHero.styles.css";
+import Footer from "../components/Footer";
 // import Testimonial from "../components/Testimonial"
 
 const Home = () => {
@@ -79,6 +80,7 @@ const Home = () => {
       </div>
       {/* <FaqSection /> */}
       {/* <Testimonial /> */}
+      <Footer />
     </HomeNavbar>
   );
 };

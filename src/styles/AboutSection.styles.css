@@ -9,3 +9,25 @@
 .abt-sect{
     max-width: 400px;
 }
+.footer-container{
+    padding: 50px;
+    background-color: #232A60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-container .footer-img{
+    max-width: 500px;
+}
+.footer-container .footer-img > img{
+    width: 100%;
+}
+.footer-container .footer-txt{
+    max-width: 500px;
+}
+.footer-container .footer-txt > p{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
