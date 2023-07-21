@@ -4,6 +4,7 @@
     align-items: center;
     gap: 2em;
     flex-wrap: wrap;
+    /* background-color: rgb(146, 141, 141); */
 }
 .abt-sect{
     max-width: 400px;
