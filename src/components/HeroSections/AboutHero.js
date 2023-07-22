@@ -1,11 +1,12 @@
 import React from 'react'
 import "../../styles/HeroSection.style.css"
+import HeroIndex from './HeroIndex'
 
 const AboutHero = () => {
   return (
-    <div className='hero-section-container'>
+    <HeroIndex>
       <h1>About Section</h1>
-    </div>
+    </HeroIndex>
   )
 }
 

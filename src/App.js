@@ -9,6 +9,7 @@ import SignIn from "./pages/SignIn";
 import Home from "./pages/Home";
 import ResetPassword from "./pages/ResetPassword";
 import SignUp from "./pages/SignUp";
+import UserPgIndex from "./pages/UserPage/UserPgIndex";
 
 function ChatBotDiv() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/reset-password" element={<ResetPassword />} />
         <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/user/*" element={<UserPgIndex />} />
       </Routes>
     </BrowserRouter>
   );
